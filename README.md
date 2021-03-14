@@ -1,4 +1,4 @@
-# console message type
+# console message tag
 
 ### Preview
 
