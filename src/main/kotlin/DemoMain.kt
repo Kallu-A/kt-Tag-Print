@@ -10,6 +10,6 @@ fun main() {
     print(error())
     print(deadly())
     print(warning())
-    println(data("You can combine the markup"))
+    println(data("You can combine the tag"))
 
 }
