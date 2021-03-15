@@ -10,4 +10,6 @@
 put `Text.kt` in your project 
 and look at `DemoMain.kt` for the syntax
 
-in java `System.out.println(TextKt.warning("hello java"));`
+in java `System.out.println(TextKt.warning("hello java"));
+
+*the tag input works better with just print*
