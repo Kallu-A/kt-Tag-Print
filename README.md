@@ -1,5 +1,5 @@
 # console message tag
-
+*java compatibility*
 ### Preview
 
 --- 
@@ -10,3 +10,4 @@
 put `Text.kt` in your project 
 and look at `DemoMain.kt` for the syntax
 
+in java `System.out.println(TextKt.warning("hello java"));`
