@@ -1,15 +1,7 @@
-import TextString.Companion.close
-import TextString.Companion.open
-import TextString.Companion.reset
+private const val reset = "\u001B[0m"
+private const val open = "\u001B[37m["
+private const val close = "\u001B[37m] "
 
-internal class TextString{
-
-    companion object {
-        internal const val reset = "\u001B[0m"
-        internal const val open = "\u001B[37m["
-        internal const val close = "\u001B[37m] "
-    }
-}
 @JvmOverloads
 fun error(message: String = "") = "$open\u001B[31mERROR$close$reset$message"
 @JvmOverloads
