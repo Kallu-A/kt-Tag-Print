@@ -6,6 +6,7 @@ fun main() {
     println(data("important data to show"))
     println(deadly("end of the program because of an error"))
     println(comment("Comment for the dev"))
+    println(input("coord in the board like 'X Y'"))
 
     print(error())
     print(deadly())
